@@ -1,0 +1,87 @@
+// ABI = Application Binary Interface
+// Is an interface that give us the details of contract without know its implementation.
+// Let us know how the contract was made and interact with its functions, especially is we are making the front end
+//That is in the folder "artifacts" once it will compiled.
+{
+    "compiler": {
+        "version": "0.8.7+commit.e28d00a7"
+    },
+    "language": "Solidity",
+    "output": {
+        "abi": [
+            {
+                "inputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "number1",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "number2",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "Sum",
+                "outputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "stateMutability": "pure",
+                "type": "function"
+            },
+            {
+                "inputs": [],
+                "name": "getResult",
+                "outputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            }
+        ],
+        "devdoc": {
+            "kind": "dev",
+            "methods": {},
+            "version": 1
+        },
+        "userdoc": {
+            "kind": "user",
+            "methods": {},
+            "version": 1
+        }
+    },
+    "settings": {
+        "compilationTarget": {
+            "testing/Funtions.sol": "Funtions"
+        },
+        "evmVersion": "london",
+        "libraries": {},
+        "metadata": {
+            "bytecodeHash": "ipfs"
+        },
+        "optimizer": {
+            "enabled": false,
+            "runs": 200
+        },
+        "remappings": []
+    },
+    "sources": {
+        "testing/Funtions.sol": {
+            "keccak256": "0xe9195e182a6f82057fb897ce9027b5e74a54da0b55f281c58bccb7e817b1022c",
+            "license": "GPL-3.0",
+            "urls": [
+                "bzz-raw://e2e080a18353293bf989c4f9c17d9ee93e248bd3b9f0dca348f5367341f39aab",
+                "dweb:/ipfs/QmWZ1GZZMMWLB9YDDqAexKB4UyvPMYeQUWLvAVcQoeExVU"
+            ]
+        }
+    },
+    "version": 1
+}
